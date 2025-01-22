@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. Manmohan Singh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(45deg, #8ecae6, #219ebc, #023047);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            color: #fff;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .navbar {
+            background-color: #023047;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 4rem 1rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            margin-top: 2rem;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .card img {
+            border-radius: 10px 10px 0 0;
+        }
+
+        footer {
+            background-color: #023047;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tribute to Dr. Manmohan Singh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section container mt-5">
+        <h1>Dr. Manmohan Singh</h1>
+        <p>Renowned Economist, Statesman, and the 13th Prime Minister of India (2004-2014)</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2 class="text-center mb-4">About Dr. Manmohan Singh</h2>
+        <p class="lead text-center">
+            Dr. Manmohan Singh is an Indian economist, academic, and politician who served as the Prime Minister of India for two consecutive terms from 2004 to 2014. Known for his humble demeanor and exceptional economic reforms, he played a pivotal role in shaping modern India's economy. As the architect of India's 1991 economic liberalization, he is widely respected as a visionary leader.
+        </p>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-5" style="background: rgba(0, 0, 0, 0.2);">
+        <div class="container">
+            <h2 class="text-center text-white mb-4">Achievements</h2>
+            <ul class="list-group">
+                <li class="list-group-item bg-transparent text-white">Architect of India's Economic Reforms (1991)</li>
+                <li class="list-group-item bg-transparent text-white">Served as Governor of the Reserve Bank of India (1982-1985)</li>
+                <li class="list-group-item bg-transparent text-white">Awarded Padma Vibhushan in 1987</li>
+                <li class="list-group-item bg-transparent text-white">Served as India's Finance Minister (1991-1996)</li>
+                <li class="list-group-item bg-transparent text-white">Led India as the Prime Minister for a decade (2004-2014)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container py-5">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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" alt="Dr. Manmohan Singh" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Dr. Manmohan Singh during his tenure as Prime Minister.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/85wSI7lF1FA/maxresdefault.jpg" alt="Manmohan Singh at WEF" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Representing India at the World Economic Forum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhsOMaEQtlQ7OvfmOxMeQuV_CfbA4eOPOQg&s" alt="Dr. Singh Abroad" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">On an official visit to Brazil as Prime Minister.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tribute to priyansh raj . All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
